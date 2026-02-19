@@ -3,6 +3,6 @@ on: [push, workflow_dispatch]
 jobs:
   lint-test:
     runs_on: ubuntu-latest
-      steps:
-        - name: Starting Msg
-          run: echo "Starting execution"
+    steps:
+      - name: Starting Msg
+        run: echo "Starting execution"
